@@ -34,6 +34,7 @@ if [[ "$1" == "y" ]];then
 INGRESS="NGINX"
 fi
 IP_HAPROXY=$(dig +short autohaprox)
+IP_KMASTER=$(dig +short autokmaster)
 ```
 
 <br>
