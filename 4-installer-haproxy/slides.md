@@ -8,6 +8,8 @@
 
 
 <br>
+
+
 * objectifs :
 		* disposer rapidement/facilement d'un k8s local
 		* apprendre vagrant
@@ -17,6 +19,8 @@
 
 
 <br>
+
+
 * étapes
 
 ```
@@ -26,6 +30,8 @@ reload_haproxy
 ```
 
 <br>
+
+
 * installer haproxy
 
 ```
@@ -37,6 +43,8 @@ sudo apt install -y -qq haproxy 2&>1 >/dev/null
 ```
 
 <br>
+
+
 * 
 
 ```
@@ -96,6 +104,8 @@ done
 ```
 
 <br>
+
+
 * restart
 
 ```

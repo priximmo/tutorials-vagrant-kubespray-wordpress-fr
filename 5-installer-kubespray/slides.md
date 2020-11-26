@@ -8,6 +8,8 @@
 
 
 <br>
+
+
 * objectifs :
 		* disposer rapidement/facilement d'un k8s local
 		* apprendre vagrant
@@ -17,6 +19,8 @@
 
 
 <br>
+
+
 * étapes
 
 ```
@@ -27,6 +31,8 @@ install_kubectl
 ```
 
 <br>
+
+
 * variables
 
 ```
@@ -38,6 +44,8 @@ IP_KMASTER=$(dig +short autokmaster)
 ```
 
 <br>
+
+
 * preparation et configurationd de kubespray
 
 ```
@@ -102,6 +110,8 @@ sed -i s/"#   port: 1234"/"  port: 6443"/g kubespray/inventory/mykub/group_vars/
 ```
 
 <br>
+
+
 * préparation des clefs ssh
 
 ```
@@ -116,6 +126,8 @@ done
 ```
 
 <br>
+
+
 * installation kubespray
 
 ```
@@ -127,6 +139,8 @@ sudo su - vagrant bash -c "ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i k
 ```
 
 <br>
+
+
 * installation de kubectl
 
 ```

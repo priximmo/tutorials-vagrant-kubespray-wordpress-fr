@@ -8,6 +8,8 @@
 
 
 <br>
+
+
 * objectifs :
 		* disposer rapidement/facilement d'un k8s local
 		* apprendre vagrant
@@ -17,6 +19,8 @@
 
 
 <br>
+
+
 * le squelette 
 
 ```

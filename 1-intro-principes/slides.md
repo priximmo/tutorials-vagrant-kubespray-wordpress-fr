@@ -6,6 +6,8 @@
 
 
 <br>
+
+
 * objectifs :
 		* disposer rapidement/facilement d'un k8s local
 		* apprendre vagrant
@@ -15,10 +17,14 @@
 
 
 <br>
+
+
 * fonctionnement par étapes pédagogiques et courtes
 
 
 <br>
+
+
 * représentation de l'infrastructure
 
 ```
@@ -38,6 +44,8 @@
 
 
 <br>
+
+
 * principe de flux pour kubernetes
 
 ```
@@ -61,6 +69,8 @@
 
 
 <br>
+
+
 * stockage via nfs et objectif wordpress derrière nginx controller
 
 ```
@@ -86,6 +96,8 @@
 ```
 
 <br>
+
+
 * possibilité d'installer wordpress
 
 Haproxy > ingress > services > pods (WP/BDD)
